@@ -1,0 +1,80 @@
+.header {
+    background-color: black;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    height: 100px;
+}
+
+/* Logo */
+a {
+    text-decoration: none !important;
+}
+.brand {
+    display: flex;
+    align-items: center;
+}
+.brand img {
+    width: 90px;
+}
+.brand-name {
+    font-weight: bold;
+}
+.brand-name-part2 {
+    color: white;
+}
+.brand-name-part1 {
+    color: white;
+}
+
+/* Navbar */
+.nav-bar {
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+}
+.nav-bar-item {
+    margin-left: 10px;
+}
+.nav-bar-item a {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: 0.5s;
+    font-weight: 500;
+}
+.nav-bar-item span {
+    color: #111111;
+    text-decoration: none;
+    font-size: large;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: 0.5s;
+    font-weight: 500;
+}
+.nav-bar-item .active {
+    color: white;
+}
+/* .nav-bar-item a:hover {
+    background-color: #00a844;
+    color: #ffffff;
+}
+.login-btn a {
+    background-color: #a9d534;
+    color: #ffffff;
+}
+.signup-btn a {
+    background-color: #00a844;
+    color: #ffffff;
+}
+.signup-btn span {
+    background-color: #00a844;
+    color: #ffffff;
+}
+.signup-btn a:hover {
+    background-color: #a9d534;
+    color: #ffffff;
+} */

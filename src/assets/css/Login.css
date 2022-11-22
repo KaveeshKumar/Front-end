@@ -1,0 +1,76 @@
+.login-bg {
+    height: calc(150vh - 150px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-container {
+    width: 450px;
+    background: #f4f8f3;
+    border-radius: 5px;
+    padding: 30px 20px;
+}
+
+.box-heading {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.box-Subheading{
+    font-size: 1.25em;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.user-type {
+    display: flex;
+    margin: 30px 0;
+    border-radius: 10px;
+}
+.user-type-container {
+    flex: 1;
+    text-align: center;
+    padding: 7px;
+    font-size: 1.35em;
+    user-select: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    margin: 0;
+    border-radius: 10px;
+}
+.user-type-container.active {
+    background: black;
+    color: #fff;
+}
+
+.form-group {
+    margin: 10px 0;
+}
+.form-group label {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.form-group input {
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.2em;
+}
+.submit-btn {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 100%;
+    background-color: black !important;
+    color: #fff !important;
+    padding: 7px !important;
+    font-size: 1.35em !important;
+    border-radius: 10px !important;
+}
+.already-registered {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+}

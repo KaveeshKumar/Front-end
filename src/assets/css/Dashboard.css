@@ -1,0 +1,71 @@
+.dashboard {
+    padding: 0 40px;
+}
+
+.title {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dashboard-item {
+    position: relative;
+}
+.box {
+    width: 97%;
+    background-color: #f4f8f3;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.dashboard-item-header {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 20px;
+}
+.dashboard-item-body {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 10px 20px;
+}
+.dashboard-item-footer {
+    padding: 10px 20px;
+    padding-bottom: 20px;
+}
+.dashboard-item-footer button {
+    margin-right: 10px;
+}
+.btn-update {
+    background-color: #a9d534 !important;
+    color: #ffffff !important;
+}
+.btn-delete {
+    background-color: #00a844 !important;
+    color: #ffffff !important;
+}
+
+
+.modal-bg {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.modal-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    padding: 20px;
+    z-index: 2;
+}
+.close-modal {
+    font-size: 30px;
+    cursor: pointer;
+}
